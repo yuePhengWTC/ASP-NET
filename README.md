@@ -9,6 +9,9 @@ Dotnet:  (BackEnd)  C#
 
 TailWind: is some css for our project
 
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindcss init
+
 tsconfig: configures how your TypeScript gets configured
 angular: configures Angular itself
 

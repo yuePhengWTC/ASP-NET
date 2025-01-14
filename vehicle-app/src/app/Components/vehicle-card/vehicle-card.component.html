@@ -1,0 +1,16 @@
+<div 
+*ngIf="vehicle"
+class="border rounded-lg p-4 shadow-md hover:cursor-pointer">
+    <div>
+        <h3 class="text-3xl font-semibold mb-2">
+            {{vehicle?.make}} {{vehicle?.model}}
+        </h3>
+        <p class="text-2xl mb-4">{{vehicle.year}}</p>
+        <button
+            class="bg-lime-200 text-black px-4 py-2 rounded shadow hover:text-yellow-500"
+            (click)="select(vehicle)"
+            >
+            view
+        </button>
+    </div>
+</div>

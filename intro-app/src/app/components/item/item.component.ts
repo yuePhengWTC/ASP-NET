@@ -18,7 +18,7 @@ export class ItemComponent implements OnInit{
   ngOnInit(): void {
     console.log("ITEM COMPONENT");
     this.itemId = this._route.snapshot.paramMap.get('itemId');
-    for(var i = 0; i<100; i++){
+    for(var i = 0; i<1000; i++){
       this.loaded+=1;
     }
   }

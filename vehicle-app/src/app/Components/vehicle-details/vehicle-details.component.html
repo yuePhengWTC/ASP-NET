@@ -1,0 +1,21 @@
+<main class="main" *ngIf="vehicle">
+    <div class="flex items-center justify-center m-h-screen">
+        <h1 class="text-4xl">{{vehicle.make}}</h1>
+    </div>
+    <br>
+    <div class="flex items-center justify-center m-h-screen">
+        <p class="flex items-center">
+            {{vehicle.model}}
+        </p>
+    </div>
+    <div class="flex items-center justify-center m-h-screen">
+        <p class="flex items-center">
+            {{vehicle.year}}
+        </p>
+    </div>
+    <div class="flex items-center justify-center m-h-screen">
+        <p class="flex items-center">
+            {{vehicle.description}}
+        </p>
+    </div>
+</main>
